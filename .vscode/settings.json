@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "DataCleaning101",
+            "group": "DataCleaning101",
+            "database": "DataCleaning101",
+            "username": "postgres"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "glassdoor",
+            "group": "glassdoor",
+            "database": "glassdoor",
+            "username": "postgres"
+        }
+    ]
+}
