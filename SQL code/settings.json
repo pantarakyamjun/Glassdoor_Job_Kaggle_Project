@@ -15,7 +15,8 @@
             "server": "localhost",
             "port": 5432,
             "driver": "PostgreSQL",
-            "name": "glassdoor1",
+            "name": "glassdoor",
+            "group": "glassdoor",
             "database": "glassdoor",
             "username": "postgres"
         }

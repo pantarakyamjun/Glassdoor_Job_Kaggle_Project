@@ -333,6 +333,497 @@ SET location = REGEXP_REPLACE(location,',.*','')
 SELECT *
 FROM job_data_staging
 
+----- UPDATE state from abbreviation to full form **update job-staging2
+SELECT DISTINCT state
+FROM job_data_staging_2
+ORDER BY state
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'AL' , 'Alabama')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'AL' , 'Alabama')
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'AZ' , 'Arizona')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'AZ' , 'Arizona')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'CA' , 'California')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'CA' , 'California')
+
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'CO' , 'Colorado')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'CO' , 'Colorado')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'CT' , 'Connecticut')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'CT' , 'Connecticut')
+
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'DC' , 'District of Columbia')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'DC' , 'District of Columbia')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'FL' , 'Florida')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'FL' , 'Florida')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'GA' , 'Georgia')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'GA' , 'Georgia')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'IA' , 'Iowa')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'IA' , 'Iowa')
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'DE' , 'Delaware')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'DE' , 'Delaware')
+
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'IL' , 'Illinois')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'IL' , 'Illinois')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'IN' , 'Indiana')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'IN' , 'Indiana')
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'LA' , 'Louisiana')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'LA' , 'Louisiana')
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'MA' , 'Massachusetts')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'MA' , 'Massachusetts')
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'MD' , 'Maryland')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'MD' , 'Maryland')
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'MI' , 'Michigan')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'MI' , 'Michigan')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'MN' , 'Minnesota')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'MN' , 'Minnesota')
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'MO' , 'Missouri')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'MO' , 'Missouri')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'MS' , 'Mississippi')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'MS' , 'Mississippi')
+
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'NC' , 'North Carolina') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'NC' , 'North Carolina')
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'NE' , 'Nebraska') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'NE' , 'Nebraska')
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'NY' , 'New York') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'NY' , 'New York')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'NH' , 'New Hampshire') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'NH' , 'New Hampshire')
+
+
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'NJ' , 'New Jersey') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'NJ' , 'New Jersey')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'OH' , 'Ohio') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'OH' , 'Ohio')
+
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'OK' , 'Oklahoma') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'OK' , 'Oklahoma')
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'OR' , 'Oregon') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'OR' , 'Oregon')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'PA' , 'Pennsylvania') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'PA' , 'Pennsylvania')
+
+
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'RI' , 'Rhode Island') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'RI' , 'Rhode Island')
+
+
+
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'SC' , 'South Carolina') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'SC' , 'South Carolina')
+
+
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'TN' , 'Tennessee') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'TN' , 'Tennessee')
+
+
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'TX' , 'Texas') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'TX' , 'Texas')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'UT' , 'Utah') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'UT' , 'Utah')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'VA' , 'Virginia') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'VA' , 'Virginia')
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'WA' , 'Washington') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'WA' , 'Washington')
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'WI' , 'Wisconsin') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'WI' , 'Wisconsin')
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'WY' , 'Wyoming') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'WY' , 'Wyoming')
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'WV' , 'West Virginia') 
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'WV' , 'West Virginia')
+
+
+
+SELECT   COUNT (DISTINCT STATE) 
+FROM job_data_staging_2
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'NE' , '	North Carolina')
+FROM job_data_staging_2
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'NE' , '	North Carolina')
+
+
+
+
+
+
+
+
+
+
+SELECT DISTINCT state, REPLACE(state, 'KS' , 'Kansas')
+FROM job_data_staging
+ORDER BY state
+
+UPDATE job_data_staging_2
+SET state = REPLACE(state, 'KS' , 'Kansas')
+
+
+
+
+
 -----2.4 SIZE WILL SEPERATE INTO 4 TIER BASED ON NUMBER OF EMPLOYEES
 SELECT
      size , REPLACE(size , 'employees' ,'')
@@ -1148,3 +1639,40 @@ SELECT DISTINCT *
 FROM   job_data_staging_2
 
 
+-------------------NULL AND MISSING VALUE -------------------
+
+SELECT a.company_name , a.headquarters , b.headquarters
+FROM job_data_staging_2 a
+JOIN job_data_staging_2 b ON a.company_name = b.company_name
+WHERE a.headquarters IS NULL and b.headquarters IS NOT NULL
+ORDER BY company_name
+
+
+SELECT a.company_name , a.founded , b.founded
+FROM job_data_staging_2 a
+JOIN job_data_staging_2 b ON a.company_name = b.company_name
+WHERE a.founded IS NULL and b.founded IS NOT NULL
+ORDER BY company_name
+
+
+
+SELECT a.industry, a.sector, b.sector
+FROM job_data_staging_2 a
+JOIN job_data_staging_2 b ON  a.industry = b.industry
+WHERE a.sector IS NULL and b.founded IS NOT NULL
+ORDER BY industry
+
+
+
+SELECT a.sector, a.industry, b.industry
+FROM job_data_staging_2 a
+JOIN job_data_staging_2 b ON  a.sector = b.sector
+WHERE a.sector IS NULL and b.founded IS NOT NULL
+ORDER BY sector
+
+
+
+SELECT DISTINCT *
+FROM   job_data_staging_2
+WHERE sector IS NULL
+---------- We could not populate data, as there was no reference row for companyname, industry, sector ,founded,company_age, our information will conntain 49 NULL values
