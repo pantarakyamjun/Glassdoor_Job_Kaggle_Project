@@ -5,6 +5,7 @@ FROM job_data_staging_2
 WHERE sector IS NOT NULL
 GROUP BY sector
 ORDER BY COUNT(job_title)  DESC
+LIMIT 5;
 
 /*
 Analysis of Job Postings by Sector in the U.S. (2020)
