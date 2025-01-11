@@ -28,7 +28,7 @@ The most important data for any job seeker in any field, must be salary data of 
   
 *table 1 showing average salary group by job_title
 
-![salary_of_datascientist_in_each_state](asset\salary_of_datascientist_in_each_state.png) 
+![salary_of_datascientist_in_each_state](asset/salary_of_datascientist_in_each_state.png) 
 
 *table 2 showing salary of top 5 data scientist in each state
 
@@ -115,7 +115,7 @@ GROUP BY state
 ORDER BY COUNT(job_title)  DESC
 LIMIT 10;
 ```
-![top10state](asset\top10state.png)
+![top10state](asset/top10state.png)
 
 Insights:
 
@@ -156,7 +156,7 @@ WHERE sector IS NOT NULL AND size IS NOT NULL
 GROUP BY sector,size
 ORDER BY sector ,COUNT(job_title)  DESC
 ```
-![copanysize-sector](asset\copanysize-sector.png)
+![copanysize-sector](asset/copanysize-sector.png)
 
 Sector Dominance Across Sizes
 - Information Technology (IT): Dominates across all company sizes, with 64 (Medium), 31 (Large), 20 (Small), and 19 (Enterprise) postings.
@@ -201,7 +201,7 @@ FROM state_sector_cte
 WHERE ranking =1
 ORDER BY count DESC
 ```
-![maps](asset\maps.png)
+![maps](asset/maps.png)
 
 Top Sectors by Demand:
 
